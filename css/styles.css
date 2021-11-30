@@ -26,6 +26,11 @@ p {
   text-align: center;
 }
 
+.challenge {
+  text-align: center;
+  padding: 3% 0;
+}
+
 img {
   width: 500px;
 }
@@ -47,8 +52,6 @@ ol {
 }
 
 table,
-thead,
-th,
 tbody,
 tr,
 td {
@@ -70,4 +73,21 @@ td {
 
 #nested-list {
   margin: 10% 0 10% 10%;
+}
+
+.box {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  margin: 10% 0 10% 10%;
+}
+
+#red-target {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  border: 5px dashed black;
+  box-sizing: border-box;
+  margin: 25%;
 }
