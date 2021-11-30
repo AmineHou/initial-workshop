@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INITIAL WORKSHOP</title>
+    <title>INITIAL WORKSHOP - HTML challenge 1</title>
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
 
     <section>
-        <h2 id="title">TITLE</h2>
+        <h2 class="title">Iteration 1 - Inline vs block elements</h2>
     </section>
 
-    <div>
+    <div id="part-1">
         <p> Write a paragraph containing some span or em tags of different colors.
             <br>
             <span class="inline-1"> Spans </span>
@@ -24,13 +24,9 @@
             their
             default display property value is inline.
             <br>
-            Those elements will follow the horizontal flow of a document.
+            <span class="inline-3"> Those elements</span> will follow the horizontal flow of a document.
             Inline elements go next to another <span class="inline-2"> inline element </span> so you won't have any line
-            break until you
-            decide do
-            insert one (like here
-            with a br
-            tag).
+            break until you decide do insert one <span class="inline-4"> (like here with a br tag)</span>.
             <br>
             Images are inline element too ! <img src="/img/Star_Wars_Empire.jpg" alt="Star Wars image"> That's a
             simple but super
@@ -38,14 +34,61 @@
         </p>
     </div>
 
+    <hr>
+    <section>
+        <h2 class="title">Iteration 2 - Simple list</h2>
+    </section>
 
-    <ol>
+    <ol id="simple-list">
         <li>Open visual studio code</li>
         <li>Launch a terminal window</li>
         <li>Open your browser</li>
-        <li>. Open devtools</li>
+        <li>Open devtools</li>
     </ol>
 
+    <hr>
+    <section>
+        <h2 class="title">Iteration 3 - Simple table</h2>
+    </section>
+
+    <table id="simple-tbl">
+        <tbody>
+            <tr>
+                <td>Ace</td>
+                <td id="diamond">Diamond</td>
+            </tr>
+            <tr>
+                <td id="heart">Heart</td>
+                <td>Spade</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <section>
+        <h2 class="title">Iteration 4 - Nested list</h2>
+    </section>
+
+    <ol id="nested-list">
+        <li>level 1.1</li>
+        <li>level 1.2</li>
+        <ul>
+            <li>level 2.1</li>
+            <ol>
+                <li>level 3.1</li>
+                <li>level 3.2</li>
+                <li>level 3.3</li>
+            </ol>
+            <li>level 2.2</li>
+            <li>level 2.3</li>
+        </ul>
+        <li> level 1.3</li>
+    </ol>
+
+    <hr>
+    <section>
+        <h2 class="title">Bonus 1 - A more complex table</h2>
+    </section>
 
 </body>
 
