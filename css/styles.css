@@ -91,3 +91,20 @@ td {
   box-sizing: border-box;
   margin: 25%;
 }
+
+.table {
+  height: 200px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 10% 0 10% 10%;
+}
+
+tbody,
+tr,
+td {
+  border: 3px solid black;
+}
+
+.carre {
+  background-color: cadetblue;
+}
